@@ -11,8 +11,7 @@ Exit
 Display the message "A=" followed by the value of the area variable, as per the example below,
 with 4 places after the decimal point. Use double precision variables.
 Like all problems, don't forget to print the end of line after the result,
-
-	otherwise you will get "Presentation Error".
+otherwise you will get "Presentation Error".
 */
 package main
 
