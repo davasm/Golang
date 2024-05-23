@@ -21,11 +21,10 @@ func main() {
 	fmt.Print("Digite o ângulo desejado:\n")
 	fmt.Scan(&angulo)
 
-	cos := math.Cos(angulo)
-	sin := math.Sin(angulo)
+	radianos := angulo * (math.Pi / 180)
 
-	fmt.Println("Cosseno de", angulo, "é:", cos)
-
-	fmt.Println("Seno de", angulo, "é:", sin)
+	fmt.Println("Cosseno de", angulo, "é:", math.Cos(radianos))
+	fmt.Println("Seno de", angulo, "é:", math.Sin(radianos))
 
 }
+
