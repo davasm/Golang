@@ -29,7 +29,7 @@ func handleLogin(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Método não permitido", http.StatusMethodNotAllowed)
 		return
 	}
-
+	
 	username := r.FormValue("username")
 	password := r.FormValue("password")
 
